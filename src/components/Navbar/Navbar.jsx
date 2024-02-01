@@ -85,8 +85,23 @@ export default function Navbar () {
                     
                 </ul>
                 <ul className={socials}>
-                    <li><a className='hover:text-knit-sweater transition-color duration-200 ' href="/"><FaInstagram size={50} /></a></li>
-                    <li><a className='hover:text-knit-sweater transition-color duration-200 ' href="/"><FaFacebook size={50} /></a></li>
+                    <li>
+                        <a 
+                            className='hover:text-knit-sweater transition-color duration-200 ' 
+                            href="https://www.instagram.com/brookemaccallumphotography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                            target='_blank'>
+                                <FaInstagram size={50} />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                            className='hover:text-knit-sweater transition-color duration-200 ' 
+                            href="https://www.facebook.com/brooke.maccallum" 
+                            target='_blank' >
+                                <FaFacebook size={50} />
+                        </a>
+                    </li>
                 </ul>
             </div> 
         </motion.div>
