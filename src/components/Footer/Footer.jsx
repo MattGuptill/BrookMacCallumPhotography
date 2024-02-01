@@ -15,7 +15,7 @@ export const Footer = () => {
     ]
 
   return (
-    <article className='h-fit flex justify-between items-center py-10 px-5 bg-midnight text-knit-sweater'>
+    <article className=' h-fit flex justify-between items-center py-10 px-5 bg-midnight text-knit-sweater'>
         <div className='w-1/3 '>
             <h1 className='w-4 lg:text-2xl '>
                 BROOKE MACCALUM
